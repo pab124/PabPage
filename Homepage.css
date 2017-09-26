@@ -13,6 +13,9 @@ h1 {
     font-family:algerian;
     color: orange;
 }
+#main {
+    background-color:#009933;
+}
 h2 {
     font-family:roman, 'times new roman';
     font-size: 15pt;
