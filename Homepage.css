@@ -3,7 +3,8 @@ body {
     }
 div {
     background-color:orange;
-    width: 600px
+    width: 600px;
+    margin: auto;
 }
 span {
     background-color:white;
