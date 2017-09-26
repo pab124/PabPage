@@ -1,9 +1,19 @@
 body {
    background-color:#009933; 
-    
+    }
+div {
+    background-color:orange;
+}
+span {
+    background-color:cyan;
 }
 h1 {
-    font-family: algerian, helvetica, sans-serif;
+    font-family:algerian;
+    color: #cca300;
+}
+h2 {
+    font-family:roman, 'times new roman';
+    font-size: 15pt;
 }
 h3 {
     font-family:Zapf-Chancery, cursive
