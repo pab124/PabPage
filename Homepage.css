@@ -1,6 +1,9 @@
 body {
    background-color:#009933; 
     }
+p {
+    background-color:white;
+}
 div {
     background-color:orange;
 }
