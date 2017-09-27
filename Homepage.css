@@ -1,8 +1,8 @@
 body {
-   background-color:#009933; 
-    }
+   background-color:#009933;
+}
 div {
-    background-color:#B2D6FF;
+    background-color:orange;
     display: flex;
     justify-content: center;
     width: 600px;
@@ -10,6 +10,8 @@ div {
 img{ 
     height:200px;
     width: 200px;
+    display: flex;
+    justify-content: flex-end;
     
 }
 span {
@@ -22,13 +24,13 @@ h1 {
 }
 #main {
     background-color:#009933;
-    display:flex;
-    justify-content: center;
 }
 h2 {
     font-family:roman, 'times new roman';
     font-size: 15pt;
 }
 h3 {
-    font-family:Zapf-Chancery, cursive
+    font-family:Zapf-Chancery, cursive;
+    display: flex;
+    justify-content:flex-start;
 }
