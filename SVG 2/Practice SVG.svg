@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="1800"
+    height="250"
+    viewBox="0 0 1800 250">
+    <g>
+        <line x1="0"
+            y1="0"
+            x2="1200"
+            y2="0"
+            stroke-width="3"
+            stroke="black"/>
+        <line x1="0"
+            y1="0"
+            x2="0"
+            y2="-590"
+            stroke-width="3"
+            stroke="black"/>
+    </g>
+</svg>
