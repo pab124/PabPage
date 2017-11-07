@@ -27,14 +27,11 @@
                  <line x1="0" y1="{.* $yinterval}" x2="{$numChap * $xinterval}" y2="{.* $yinterval}" stroke="black" stroke-width=".5" stroke-dasharray="5"/>
              </xsl:for-each>
              <!-- dotted lines in the back -->
+            
              <xsl:variable name="pos" select="position()"/>
              <xsl:comment>What is the value of $Pos? <xsl:value-of select="$pos"/></xsl:comment>
-             
-             <!--X axis Poem Number labels: 
-             We played around with spacing using $Xinterval, and thought the graph looked best if pulled it left a little bit, 
-             about the half the width of the $Xinterval we set, but with the full space in between each unit. -->
              <text x="{$pos * $xinterval - $xinterval div 2}" y="15" fill="red" text-anchor="middle"><xsl:apply-templates select="alice/chapter/@which"/></text>
-             
+             <!-- the x axis labels -->
              
          </g>
          </svg>
