@@ -28,10 +28,24 @@
              </xsl:for-each>
              <!-- dotted lines in the back -->
             
-             <xsl:variable name="pos" select="position()"/>
-             <xsl:comment>What is the value of $Pos? <xsl:value-of select="$pos"/></xsl:comment>
-             <text x="{$pos * $xinterval - $xinterval div 2}" y="15" fill="red" text-anchor="middle"><xsl:apply-templates select="alice/chapter/@which"/></text>
+            
+             
+             
+             <xsl:for-each select="//chapter">
+                 <xsl:variable name="pos" select="position()"/>
+                   <text x="{($pos * $xinterval) -( $xinterval div 2)}" y="15" fill="red" text-anchor="middle"><xsl:apply-templates select="@which"/></text>
              <!-- the x axis labels -->
+                 <circle cx="{$pos * $xinterval - $xinterval div 2}" cy="{count(p/q[@sp='alice']) * $yinterval}"  r="6" fill="black"/>
+             
+                 <xsl:if test="$pos ne last()">     
+                     <line x1="{$pos * $xinterval - $xinterval div 2}" y1="{count(p/q[@sp='alice']) * $yinterval}" 
+                         x2="{($pos + 1) * $xinterval - $xinterval div 2}" y2="{count(following-sibling::p/q[@sp='alice'])+1*$yinterval}"
+                         stroke-width="6" stroke="black"/>
+                 </xsl:if>
+             </xsl:for-each>
+             
+             
+             
              
          </g>
          </svg>
