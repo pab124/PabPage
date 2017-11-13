@@ -1,0 +1,18 @@
+body{
+    background:#452F74;
+}
+.header{
+    text-align:center;
+    color:#AA9A39;
+    font-family:arial, helvetica, sans-serif;
+}
+.description{
+    background:#655091;
+    color:#AA9A39;
+    width:50%;
+    padding-left: 1%;
+    padding-right: 1%;
+}    
+#value{
+    color:#FFF3AA;
+}
