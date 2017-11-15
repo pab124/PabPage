@@ -20,7 +20,7 @@
             
             <head>
                 <title>Analysis</title>
-                <link rel="stylesheet" type="text/css" href="SVG4.css" />
+                <link rel="stylesheet" type="text/css" href="Brooks_SVG4_CSS.css" />
             </head>
             <body>
                 <div class="header">
@@ -34,17 +34,23 @@
                 <div class="main"> 
                     <svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="-250 50 1400 250">
                         <g>
-                            <line 
+                            <polyline points="0,{-($abbrmax*$ylength)-(15*$ylength)} 0,400 {$numcon * $xlength +(2*$xlength)},400" fill="none" stroke="#AAA839" stroke-width="3"/>
+                            
+                            
+                            
+                            
+                            <!-- <line 
                                 x1="0" y1="{-($abbrmax*$ylength)-(15*$ylength)}" 
                                 x2="0" y2="400" 
                                 stroke="#AAA839" stroke-width="3"/>
-                            <!-- this is my y axis -->
+                            this is my y axis
                             
                             <line 
                                 x1="0" y1="400" 
                                 x2="{$numcon * $xlength +(2*$xlength)}" y2="400" 
                                 stroke="#AAA839" stroke-width="3"/>
-                            <!-- this is my x axis -->
+                             --> 
+                            
                             <xsl:for-each select="//q">
                                 <xsl:variable name="pos" select="position()"/>
                                 <text x="{$pos * $xlength + $xlength}" y="420" fill="white"><xsl:apply-templates select="@n"/></text>
