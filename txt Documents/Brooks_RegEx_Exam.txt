@@ -1,0 +1,6 @@
+find & and replace with &amp; -replaces reserved characters
+find < and repalce with &lt; - replaces reserved characters
+find > and replace with &gt - replaces reserved characters
+find ^([A-Z]+ *[A-Z]*)-- and replace with <spkr>\1</spkr> -finds all the speakers and labels them as such
+find \{([A-Z \:\[\]\.\-]+)\} and replace with <stage>\1</stage> - finds all the stage directions and labels them as such
+find (<spkr>.+\n(\w|\W).+) and replace with <sp>\1</sp> - highlights all the speeches and notes both the speakers and speeches themselves.

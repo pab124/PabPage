@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--X axis calculation: The number of poems in the collection is: 11.
+        Spreading these across the screen with an interval spacer should make my X axis this long: 1100-->
+<!--Y axis calculation: the maximum count of variants in the files is: 5.
+     Spreading "up" the screen with an interval spacer should make my Y axis this long: -100.-->
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="1800"
+    height="250"
+    viewBox="0 0 1800 250">
+    <g transform="translate(50 200)">
+        <text x="90" y="-180" fill="red">Line graph of the Count of Variant Passages per Poem in Emily Dickinson's Fascicle 16</text>
+        <line x1="0"
+            y1="0"
+            x2="1100"
+            y2="0"
+            stroke-width="3"
+            stroke="black"/>
+        <line x1="0"
+            y1="0"
+            x2="0"
+            y2="-120"
+            stroke-width="3"
+            stroke="black"/>
+        <text x="-10" y="-20" fill="red" text-anchor="middle">1</text>
+        <line x1="0"
+            y1="-20"
+            x2="1100"
+            y2="-20"
+            stroke="red"
+            stroke-width=".5"
+            stroke-dasharray="10"/>
+        <text x="-10" y="-40" fill="red" text-anchor="middle">2</text>
+        <line x1="0"
+            y1="-40"
+            x2="1100"
+            y2="-40"
+            stroke="red"
+            stroke-width=".5"
+            stroke-dasharray="10"/>
+        <text x="-10" y="-60" fill="red" text-anchor="middle">3</text>
+        <line x1="0"
+            y1="-60"
+            x2="1100"
+            y2="-60"
+            stroke="red"
+            stroke-width=".5"
+            stroke-dasharray="10"/>
+        <text x="-10" y="-80" fill="red" text-anchor="middle">4</text>
+        <line x1="0"
+            y1="-80"
+            x2="1100"
+            y2="-80"
+            stroke="red"
+            stroke-width=".5"
+            stroke-dasharray="10"/>
+        <text x="-10" y="-100" fill="red" text-anchor="middle">5</text>
+        <line x1="0"
+            y1="-100"
+            x2="1100"
+            y2="-100"
+            stroke="red"
+            stroke-width=".5"
+            stroke-dasharray="10"/>
+        <!--What is the value of $Pos? 1-->
+        <text x="50" y="15" fill="red" text-anchor="middle">1601</text>
+        <circle cx="50" cy="-20" r="3" fill="black"/>
+        <line x1="50"
+            y1="-20"
+            x2="150"
+            y2="-20"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 2-->
+        <text x="150" y="15" fill="red" text-anchor="middle">1602</text>
+        <circle cx="150" cy="-20" r="3" fill="black"/>
+        <line x1="150"
+            y1="-20"
+            x2="250"
+            y2="-80"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 3-->
+        <text x="250" y="15" fill="red" text-anchor="middle">1603</text>
+        <circle cx="250" cy="-80" r="3" fill="black"/>
+        <line x1="250"
+            y1="-80"
+            x2="350"
+            y2="-20"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 4-->
+        <text x="350" y="15" fill="red" text-anchor="middle">1604</text>
+        <circle cx="350" cy="-20" r="3" fill="black"/>
+        <line x1="350"
+            y1="-20"
+            x2="450"
+            y2="-40"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 5-->
+        <text x="450" y="15" fill="red" text-anchor="middle">1605</text>
+        <circle cx="450" cy="-40" r="3" fill="black"/>
+        <line x1="450"
+            y1="-40"
+            x2="550"
+            y2="-40"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 6-->
+        <text x="550" y="15" fill="red" text-anchor="middle">1606</text>
+        <circle cx="550" cy="-40" r="3" fill="black"/>
+        <line x1="550"
+            y1="-40"
+            x2="650"
+            y2="-40"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 7-->
+        <text x="650" y="15" fill="red" text-anchor="middle">1607</text>
+        <circle cx="650" cy="-40" r="3" fill="black"/>
+        <line x1="650"
+            y1="-40"
+            x2="750"
+            y2="-100"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 8-->
+        <text x="750" y="15" fill="red" text-anchor="middle">1608</text>
+        <circle cx="750" cy="-100" r="3" fill="black"/>
+        <line x1="750"
+            y1="-100"
+            x2="850"
+            y2="0"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 9-->
+        <text x="850" y="15" fill="red" text-anchor="middle">1609</text>
+        <circle cx="850" cy="0" r="3" fill="black"/>
+        <line x1="850"
+            y1="0"
+            x2="950"
+            y2="-40"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 10-->
+        <text x="950" y="15" fill="red" text-anchor="middle">1610</text>
+        <circle cx="950" cy="-40" r="3" fill="black"/>
+        <line x1="950"
+            y1="-40"
+            x2="1050"
+            y2="-20"
+            stroke-width="2"
+            stroke="green"/>
+        <!--What is the value of $Pos? 11-->
+        <text x="1050" y="15" fill="red" text-anchor="middle">1611</text>
+        <circle cx="1050" cy="-20" r="3" fill="black"/>
+    </g>
+</svg>
